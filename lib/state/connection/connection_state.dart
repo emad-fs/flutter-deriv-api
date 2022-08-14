@@ -1,15 +1,12 @@
 part of 'connection_cubit.dart';
 
 /// Connection states base class.
-abstract class ConnectionState extends Equatable {
+abstract class ConnectionState {
   /// Initializes [ConnectionState].
   const ConnectionState();
 
   @override
   String toString() => 'ConnectionState: $runtimeType';
-
-  @override
-  List<Object> get props => <Object>[];
 }
 
 /// Connection initial state.
